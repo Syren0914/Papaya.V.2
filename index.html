@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos/css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
     <title>MindSpark</title>
 
@@ -50,17 +50,19 @@
         </div>
     </header>
     <!-------------- HERO ------- -->
-    <section id="hero" class="container flex-row" >
-        <div class="hero__content">
-            <h1 class="tittle">Work Smartly with Endless Possiblities</h1>
-            <p class="text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus fuga, consequatur quos
+    <section id="hero"  class="flex-row" >
+
+        <div class=" container hero__content" ><br><br><br>
+            <p class="text" data-aos="fade-right" data-aos-delay="200" style="font-style: 'Poppins', sans-serif;">
+                Digital Marketing Agency
             </p>
-            <a href="" class="btn btn-primary">Get Started</a>
+            <h1 data-aos="fade-right" data-aos-delay="200" class="tittle" >Hello, Welcome To<br><span>MindSpark</span></h1> <br>
+            
+            <button data-aos="fade-right" data-aos-delay="200" class="custom-btn" >Get Started</button>
         </div>
-        <div class="hero__img">
+        <!-- <div data-aos="fade-left" data-aos-delay="200" class="hero__img">
             <img src="assets/img/hero.png" alt="">
-        </div>
+        </div> -->
     </section>
     <!-------------- HERO------- -->
 
@@ -68,13 +70,13 @@
 
 
     <!-------------- ABOUT------- -->
-    <section id="about" class="container flex-center flex-column">
+    <section id="about" class="container flex-center flex-column" >
         <h5 class="section-subheading">Build trust first</h5>
-        <h2 class="section-heading text-center">Control your business with a single tap
+        <h2 data-aos="fade-right" class="section-heading text-center">Control your business with a single tap
 
         </h2>
-        <div class="features text-center">
-            <div class="feature" style="--color: #fe6786;">
+        <div class="features text-center"  >
+            <div class="feature" data-aos="fade-right" data-aos-delay="200" style="--color: #fe6786;">
                 <div class="feature__icon">
                     <i class="fas fa-anchor"></i>
                 </div>
@@ -83,7 +85,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga esse amet voluptatem exercitationem reprehenderit, fugit nam in eaque? Repudiandae accusantium possimus dolorem dolores incidunt odio doloribus. Hic possimus ipsam sit.
                 </p>
             </div>
-            <div class="feature" style="--color: #5cd8a5;">
+            <div class="feature" data-aos="fade-up" data-aos-delay="400" style="--color: #5cd8a5;">
                 <div class="feature__icon">
                     <i class="fa-regular fa-file-lines"></i>
                 </div>
@@ -92,7 +94,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga esse amet voluptatem exercitationem reprehenderit, fugit nam in eaque? Repudiandae accusantium possimus dolorem dolores incidunt odio doloribus. Hic possimus ipsam sit.
                 </p>
             </div>
-            <div class="feature" style="--color: #fea95b;">
+            <div class="feature" data-aos="fade-left" data-aos-delay="200" style="--color: #fea95b;">
                 <div class="feature__icon">
                     <i class="fas fa-chart-line"></i>
                 </div>
@@ -103,7 +105,7 @@
             </div>
             
         </div>
-        <div class="about__details flex-center">
+        <div class="about__details flex-center" data-aos="fade-up-right" data-aos-delay="300">
             <div class="about__details-content">
                 <h1>Most Innnovative creative team</h1>
                 <p>
@@ -118,7 +120,7 @@
                 </a>
             </div>
         
-        <div class="about__details-img">
+        <div data-aos="fade-up-left" data-aos-delay="400" class="about__details-img">
             <img src="assets/img/about.png" alt="">
         </div>
         </div>
@@ -131,11 +133,11 @@
     ">
         <div class="container">
             <h5 class="section-subheading">What we do</h5>
-            <h2 class="section-heading right">
+            <h2 class="section-heading right" data-aos="fade-right" data-aos-delay="400">
                 Services to solve all kind of business problems
             </h2>
             <div class="services">
-                <div class="service">
+                <div class="service" data-aos="fade-up-right" data-aos-delay="300">
                     <div class="service__icon">
                         <img src="assets/img/squares.png" alt="">
                     </div>
@@ -147,7 +149,7 @@
                         <i class="fas fa-arrow-right"></i>
                     </div>
                 </div>
-                <div class="service">
+                <div class="service" data-aos="fade-up" data-aos-delay="350">
                     <div class="service__icon">
                         <img src="assets/img/shopping-cart.png" alt="">
                     </div>
@@ -159,7 +161,7 @@
                     </div>
                 
                 </div>
-                <div class="service">
+                <div class="service" data-aos="fade-up-left" data-aos-delay="300">
                     <div class="service__icon">
                         <img src="assets/img/video-camera.png" alt="">
                     </div>
@@ -171,7 +173,7 @@
                         <i class="fas fa-arrow-right"></i>
                     </div>
                 </div>
-                <div class="service">
+                <div class="service" data-aos="fade-up-right" data-aos-delay="300">
                     <div class="service__icon">
                         <img src="assets/img/headphones.png" alt="">
                     </div>
@@ -186,7 +188,12 @@
         </div>
     </section>
     <!-------------- PROJECTS --------->
-    <serction id="projects">
+    <section id="projects" style="
+    background: url(assets/img/projects-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;">
         <div class="container">
             <h5 class="section-subheading">
                 Our Projects
@@ -195,7 +202,7 @@
                 Check the real innovation od problem solving
             </h2>
             <div class="projects">
-                <div class="project">
+                <div class="project" data-aos="fade-down-right" data-aos-delay="300">
                     <div class="project__img">
                         <img src="assets/img/project-1.png" alt="">
                     </div>
@@ -208,7 +215,7 @@
                         <a href="" class="btn btn-secondary">View details</a>
                     </div>
                 </div>
-                <div class="project">
+                <div class="project" data-aos="fade-down-left" data-aos-delay="350">
                     <div class="project__img">
                         <img src="assets/img/project-2.png" alt="">
                     </div>
@@ -221,7 +228,7 @@
                         <a href="" class="btn btn-secondary">View details</a>
                     </div>
                 </div>
-                <div class="project">
+                <div class="project"data-aos="fade-down-right" data-aos-delay="400">
                     <div class="project__img">
                         <img src="assets/img/project-3.png" alt="">
                     </div>
@@ -239,6 +246,246 @@
                 
             </div>
         </div>
-    </serction>
+    </section>
+    <!-------------- TEAM --------->
+    <section id="team" class="container">
+        <h5 class="section-subheading text-center">
+            meet our team
+        </h5>
+        <h2 class="section-heading text-center right left" data-aos="fade-right" data-aos-delay="350">
+            Awesome people with great busines skills
+        </h2>
+        <div class="members">
+            <div class="member" data-aos="fade-down" data-aos-delay="300">
+                    <div class="memeber__img">
+                        <img src="assets/img/member-1.png" alt="">
+                    </div>
+                    <div class="member__content">
+                        <h1>John Doe</h1>
+                        <p>Web Developer</p>
+                    </div>
+            </div>
+            
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+                <div class="memeber__img">
+                    <img src="assets/img/member-2.png" alt="">
+                </div>
+                <div class="member__content">
+                    <h1>John Doe</h1>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+            <div class="member" data-aos="fade-down" data-aos-delay="300">
+                <div class="memeber__img">
+                    <img src="assets/img/member-3.png" alt="">
+                </div>
+                <div class="member__content">
+                    <h1>John Doe</h1>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+                <div class="memeber__img">
+                    <img src="assets/img/member-4.png" alt="">
+                </div>
+                <div class="member__content">
+                    <h1>John Doe</h1>
+                    <p>Web Developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------- TESTIMONAILS --------->
+    <section id="testimonial" style="
+    background: url(assets/img/testimonials-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;">
+        <div class="container flex-row">
+            <div class="testimonials-wrapper">
+                <p class="quotes" data-aos="fade-down-right" data-aos-delay="300">
+                    <i class="fas fa-quote-left"></i>
+                </p>
+                <p class="section-subheading" data-aos="fade-down-right" data-aos-delay="300">
+                    testimonial
+                </p>
+            
+                <div class="testimonials">
+                    <div class="testimonial" data-aos="fade-up" data-aos-delay="300">
+                        <h1 class="testimonial__tittle">They are awesome</h1>
+                        <p class="testimonial__text">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi corporis aperiam laudantium cumque aliquid dicta vitae perspiciatis vero aut minima.Lorem ipsum dolor sit amet, consectet
+                        </p>
+                        <div class="testimonial__author">
+                            <h3>Jane Smith</h3>
+                            <p>CEO, Company Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-navigation">
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                    
+    
+                </div>
+            </div>
+            
+            
+            <div class="testimonials__img" data-aos="fade-up-left" data-aos-delay="400">
+                <img src="assets/img/testimonials.png" alt="">
+            </div>
+        </div>
+        
+    </section>
+    <!-------------- CONTACT --------->
+    <section id="contact" style="
+    background: url(assets/img/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;">
+        <div class="container">
+            <h5 class="section-subheading text-center">
+                Contact Us
+            </h5>
+            <h2 class="section-heading text-center left right">Stay connected with us for any reason</h2>
+            <div class="contact">
+                <form action="" class="contact__form" data-aos="fade-right" data-aos-delay="300">
+                    <h1>Write us a message</h1>
+                    <input type="text" placeholder="Your name" required >
+                    <input type="email" placeholder="Email address" required>
+                    <input type="text" placeholder="Subject" required>
+                    <textarea  rows="5" required>Your Message</textarea>
+                    <button class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact__details" data-aos="fade-left" data-aos-delay="300">
+                    <p class="text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos omnis nobis officiis a nisi neque saepe molestiae incidunt repellat adipisci?
+                    </p>
+                    <div class="details">
+                        <div class="detail">
+                            <div class="detail__icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="detail__content">
+                                <h3>Phone</h3>
+                                <p>+12789232</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="detail__icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="detail__content">
+                                <h3>Email</h3>
+                                <p>MindSparkdmv@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <div class="detail__icon">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <div class="detail__content">
+                                <h3>Address</h3>
+                                <p>123 , Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-------------- FOOTER --------->
+    <footer>
+        <div class="container">
+            <div class="footer__content" >
+                <div class="footer__details" data-aos="fade-down-left" data-aos-delay="300">
+                    <div class="footer__logo">
+                        <img src="assets/img/logo.png" alt="logo">
+                    </div>
+                    <p class="footer__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, voluptatem?
+                    </p>
+                    <div class="footer__newsletter">
+                        <form action="#"
+                        class="footer__newsletter-form">
+                            <input type="email" placeholder="Submit email" required>
+                        <div class="icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+                <div class="footer__menu" data-aos="fade-down" data-aos-delay="300">
+                    <h3 class="footer__menu-title">Quick Links</h3>
+                    <ul class="footer_menu-list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#testimonial">Testimonial</a></li>
+                        <li><a href="#contact">Contact</a></li>
+
+
+                    </ul>
+                </div>
+                <div class="footer__menu" data-aos="fade-down-left" data-aos-delay="300">
+                    <h3 class="footer__menu-title">Services</h3>
+                    <ul class="footer_menu-list">
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#about">Services</a></li>
+                        <li><a href="#services">POS System</a></li>
+                        <li><a href="#projects">Online Ordering System</a></li>
+                        <li><a href="#team">Marketing</a></li>
+                        <li><a href="#team">Design</a></li>
+                        
+
+
+                    </ul>
+                </div>
+                <div class="footer__menu" data-aos="fade-down-left" data-aos-delay="300">
+                    <h3 class="footer__menu-title">Social</h3>
+                    <ul class="footer_menu-list">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#about">X</a></li>
+                        <li><a href="#services">Instagram</a></li>
+                        <li><a href="#projects">Linkedin</a></li>
+                        
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__bottom-icons" >
+                    <p>Follow us</p>
+                    <a href="#" class="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                </div>
+                <p>&copy; 2024 Erdene Batbayar.All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="assets/js/fontawesome.min.js"></script>
+    
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
 </body>
 </html>
