@@ -172,8 +172,11 @@ header.sticky {
     background-color: transparent;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.header__logo img{
-    width: 100px;
+.header__logo{
+    width: 120px;
+    font-family: "Pacifico", sans-serif;
+    font-size: 1.3rem;
+
 
 }
 .header__menu{
@@ -181,8 +184,8 @@ header.sticky {
 
 }
 .header__menu li a{
-    font-size: 0.8rem;
-    text-transform: uppercase;
+    font-size: 1.2rem;
+    /* text-transform: uppercase; */
     font-family: "Pacifico", sans-serif;
     font-weight: 300;
     transition: 0.5s;
@@ -208,16 +211,85 @@ header .right{
 .home__title{
     color: rgb(255, 199, 78);
     font-family: "Pacifico", sans-serif;
-    font-size: 6rem;
-    font-weight: 600;
+    font-size: 7rem;
+    font-weight: 500;
     letter-spacing: 4px;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
 
 
 }
-.right , .left {
+.home__data h2{
+    font-size: 2.5rem;
+  }
+.hero__button{
+    display: flex; 
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.hero_button{
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(255, 199, 78);
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid #fcc44d;
+
+}
+.hero_button:hover{
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid rgb(255, 199, 78);
+    box-shadow: 4px 5px 17px -4px rgb(255, 199, 78);
+
+
+}
+.hero_button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgb(255, 199, 78);
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  .hero_button:hover::before {
+    width: 250%;
+  }
+  
+  .shadow__btn{
     font-family: "Pacifico", sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+    
+  }
+  .shadow__btn:hover{
+    font-size: 1.6rem;
+    color: rgb(255, 199, 78);
+    text-align: center;
+    
+}
+
+
+
+
+.right  {
+    font-family: "Pacifico", sans-serif;
+    /* font-size: 1.2rem; */
     font-weight: 400;
 }
 .slider-bg{
@@ -765,6 +837,17 @@ footer{
     }
     .hero__img{
         width: 100%;
+    }
+    .home__subtitle{
+        font-size: 20px;
+
+    }
+    .home__container{
+        margin-top: 10rem;
+        
+    }
+    .hero__button{
+        flex-direction: column;
     }
 
 
