@@ -177,13 +177,14 @@ header.sticky {
 
 }
 .header__menu{
-    gap: 1rem;
+    gap: 2rem;
 
 }
 .header__menu li a{
     font-size: 0.8rem;
     text-transform: uppercase;
-    font-weight: 600;
+    font-family: "Pacifico", sans-serif;
+    font-weight: 300;
     transition: 0.5s;
 
     
@@ -214,6 +215,10 @@ header .right{
     text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.6);
 
 
+}
+.right , .left {
+    font-family: "Pacifico", sans-serif;
+    font-weight: 400;
 }
 .slider-bg{
     /* height: 100px; */
