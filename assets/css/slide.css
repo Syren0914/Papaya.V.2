@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
 
 :root {
 
@@ -326,7 +326,7 @@
     pointer-events: none;
     user-select: none;
     z-index: -1;
-    background: rgb(0, 0, 0); /* Adjust the alpha value for darkness */
+    background: rgba(0, 0, 0, 0.781); /* Adjust the alpha value for darkness */
   }
   @media (max-width: 450px) {
     .hero .slider-bg {
