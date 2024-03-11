@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
 
+@import url(https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap);
+
 :root {
 
     /**
@@ -341,7 +343,7 @@
     background: rgba(0, 0, 0, 0); /* Adjust the alpha value for darkness */
   }
   .home__data{
-    transform: translate(0%, -50%);
+    transform: translate(0%, -30%);
     
   }
 
@@ -439,10 +441,11 @@
     }
   
 
-    #grid {
+    .grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 10px;
+      margin-top: 4rem;
       justify-content: center; /* center items horizontally */
       align-items: center; /* center items vertically */
     }
@@ -450,8 +453,30 @@
     .item {
       padding: 20px;
       text-align: center;
-      font-size: 30px;
+      justify-content: center;
+      margin-right: 7rem;
+      margin-left: 7rem;
+      
+
     }
+    .item h5{
+      font-family: "Mate", sans-serif;
+      letter-spacing: 0.1rem;
+      /* color: #dc57fd; */
+      font-size: 18px;
+      font-weight: 900;
+    }
+    .item p{
+      font-family: "Mate", sans-serif;
+      letter-spacing: 0.1rem;
+      font-weight: 400;
+      font-size: 16px;
+    }
+    
+    .left-aligned-code {
+      text-align: left;
+    }
+ 
   
     
   
