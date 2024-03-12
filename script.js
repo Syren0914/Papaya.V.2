@@ -33,7 +33,7 @@ const menus = [
         name: "Tomato Soup",
         price: "$8",
         description: "Classic tomato soup served with garlic bread",
-        type: "soup"
+        type: "drink"
     }
     ,
     {
@@ -61,31 +61,31 @@ const menus = [
         name: "Tomato Soup",
         price: "$8",
         description: "Classic tomato soup served with garlic bread",
-        type: "soup"
+        type: "rice"
     }
     ,{
         name: "Steak",
         price: "$20",
         description: "Juicy grilled steak served with mashed potatoes and sautéed vegetables",
-        type: "entree"
+        type: "curries"
     }
     ,{
         name: "Steak",
         price: "$20",
         description: "Juicy grilled steak served with mashed potatoes and sautéed vegetables",
-        type: "entree"
+        type: "salad"
     }
     ,{
         name: "Steak",
         price: "$20",
         description: "Juicy grilled steak served with mashed potatoes and sautéed vegetables",
-        type: "entree"
+        type: "noodles"
     }
     ,{
         name: "Steak",
         price: "$20",
         description: "Juicy grilled steak served with mashed potatoes and sautéed vegetables",
-        type: "entree"
+        type: "curries"
     }
     // Add more menu items as needed
 ];
@@ -106,6 +106,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const appetizerMenuGallery = document.getElementById('appetizer-item');
     const entreeMenuGallery = document.getElementById('entree-item');
     const soupMenuGallery = document.getElementById('soup-item');
+    const drinkMenuGallery = document.getElementById('drink-item');
+    const saladMenuGallery = document.getElementById('salad-item');
+    const curriesMenuGallery = document.getElementById('curries-item');
+    const noodlesMenuGallery = document.getElementById('noodles-item');
+    const riceMenuGallery = document.getElementById('rice-item');
+
+
     
     menus.forEach((menu, index) => {
         const menuHTML = generateMenuItem(menu, index);
@@ -115,6 +122,16 @@ document.addEventListener("DOMContentLoaded", function() {
             entreeMenuGallery.innerHTML += menuHTML;
         } else if (menu.type === 'soup') {
             soupMenuGallery.innerHTML += menuHTML;
+        } else if (menu.type ==='drink') {
+            drinkMenuGallery.innerHTML += menuHTML;
+        } else if (menu.type ==='salad') {
+            saladMenuGallery.innerHTML += menuHTML;
+        } else if (menu.type ==='curries') {
+            curriesMenuGallery.innerHTML += menuHTML;
+        }else if (menu.type ==='noodles') {
+            noodlesMenuGallery.innerHTML += menuHTML;
+        }else if (menu.type ==='rice') {
+            riceMenuGallery.innerHTML += menuHTML;
         }
     });
 });
