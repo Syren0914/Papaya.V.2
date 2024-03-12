@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
-
+@import url(https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Special+Elite&display=swap);
 
 :root {
 
@@ -460,22 +461,45 @@
 
     }
     .item h5{
-      font-family: "Mate", sans-serif;
+      font-family: "Special Elite", sans-serif;
       letter-spacing: 0.1rem;
-      /* color: #dc57fd; */
-      font-size: 18px;
+      color: #ffffff;
+      font-size: 20px;
       font-weight: 900;
+      
     }
     .item p{
       font-family: "Mate", sans-serif;
       letter-spacing: 0.1rem;
       font-weight: 400;
       font-size: 16px;
+      
     }
     
     .left-aligned-code {
       text-align: left;
     }
+    .menu-title{
+      font-family: "Special Elite", sans-serif;
+      text-transform: uppercase;
+      color: var(--gold-crayola);
+      text-shadow: 4px 4px #000000;
+      font-size: 2rem;
+    }
+    @media (max-width: 450px){
+      .grid{
+        display: flex;
+        flex-direction: column;
+        
+      }
+      .item{
+        margin-right: 1rem;
+        margin-left: 1rem;
+
+      }
+    }
+    
+
  
   
     
