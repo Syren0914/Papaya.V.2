@@ -58,7 +58,7 @@ const menus = [
     }
     ,
     {
-        name: "Fresh Spring Rolls (2)",
+        name: "Fresh Spring Rolls (2)🌶️",
         price: "$5.95",
         description: "-Chicken or Vegetable or Tofu <br> – Shrimp or Imitate Crab meat",
         type: "appetizer"
@@ -70,9 +70,9 @@ const menus = [
         type: "entree"
     }
     ,{
-        name: "Kapow (Basil with Hot Chili Peppers)",
+        name: "Kapow",
         price: "$11.95",
-        description: "Choice of meat Stir-fried with bell pepper, white onions and hot basil leaves in a delicious sauce.",
+        description: "Choice of meat Stir-fried with bell pepper, white onions and hot basil leaves in a delicious sauce.<br>(Basil with Hot Chili Peppers)",
         type: "entree"
     }
     ,{
@@ -82,7 +82,7 @@ const menus = [
         type: "entree"
     }
     ,{
-        name: "Pad Khing Sod (Ginger Perfect)",
+        name: "Pad Khing Sod <br> (Ginger Perfect)🌶️🌶️",
         price: "$11.95",
         description: "Choice of meat sautéed with fresh ginger mushrooms, carrots, white onions and green onions in black bean sauce.",
         type: "entree"
@@ -136,7 +136,7 @@ const menus = [
         type: "entree"
     }
     ,{
-        name: "Som Tum (Papaya Salad)",
+        name: "Som Tum <br>(Papaya Salad)🌶️🌶️🌶️",
         price: "$9.95",
         description: "Shredded green papaya mixed with   tomatoes, garlic, chili pepper, fish sauce and lime juice.",
         type: "salad"
@@ -168,27 +168,187 @@ const menus = [
         price: "$14.95",
         description: "Bean thread noodle mixed with shrimp, minced chicken, white onions, green onions, cilantro and peanuts with Thai herbs in spicy lime dressing. ",
         type: "salad"
+    },{
+        name: "Tom Yum🌶️🌶️",
+        price: "$11.95",
+        description: "Choice of meat with lemon grass, galanga, mushrooms, white onions, tomatoes, green onions, cilantro, chili pepper and lime juice in hot and sour soup. <br>(Tom Yum Swai Fish  $14.95 (no small size))",
+        type: "soup"
     }
     ,{
         name: "Tom Kra",
         price: "$11.95",
         description: "Choice of meat with lemon grass, galanga, mushrooms, white onions, tomatoes, green onions, cilantro and chili pepper and lime juice in coconut milk soup.",
         type: "soup"
-    },{
+    },
+    {
         name: "Chicken and Tofu Soup",
         price: "$11.95",
         description: "Soft tofu and minced chicken with green onions, celery, napa cabbage and cilantro in chicken broth.",
         type: "soup"
-    },{
+    },
+    {
         name: "Kua Teaw (Thai Rice Noodle) <br>(without rice)",
         price: "",
         description: "- Rice noodle with meatball and sliced beef in beef soup.	  $11.95 <br> - Rice noodle with Choice of meat (Chicken or Pork) in chicken broth. $11.95 <br>- Rice noodle with Duck meat in duck soups. $14.95",
         type: "soup"
-    },{
-        name: "Sukee-Ya-Kee (Soup or Stir Fried) ",
+    },
+    {
+        name: "Sukee-Ya-Kee <br> (Soup or Stir Fried) ",
         price: "$11.95",
         description: "Choice of meat with Napa cabbage, celery and green onions with sukee-ya-kee sauce. (Without rice)",
         type: "soup"
+
+    }
+    ,{
+        name: "Green Curry🌶️🌶️",
+        price: "$11.95",
+        description: "- Choice of meat combined with spicy green curry sauce, green peas, bell peppers, bamboo shoots and fresh basil leaves.",
+        type: "curries"
+    }
+    ,{
+        name: "Red Curry🌶️🌶️",
+        price: "$11.95",
+        description: "Choice of meat combined with spicy red curry sauce, bamboo shoots, bell peppers and fresh basil leaves.",
+        type: "curries"
+    }
+    ,{
+        name: "Panang Curry🌶️🌶️",
+        price: "$11.95",
+        description: "Choice of meat combined with spicy panang curry sauce, kaffir lime leaves and bell peppers.",
+        type: "curries"
+    }
+    
+    ,{
+        name: "Massaman Curry🌶️",
+        price: "$11.95",
+        description: "Choice of meat combined with massaman curry sauce, potatoes, white onions and roasted peanut.",
+        type: "curries"
+    }
+    ,{
+        name: "Thai Pumpkin Red Curry🌶️🌶️",
+        price: "$11.95",
+        description: "Choice of meat with Napa cabbage, celery and green onions with sukee-ya-kee sauce. (Without rice)",
+        type: "curries"
+    }
+    ,{
+        name: "Pineapple Red Curry🌶️🌶️",
+        price: "$11.95",
+        description: "Choice of meat combined with spicy red curry sauce, carrots, tomatoes, pineapple and fresh basil leaves.",
+        type: "curries"
+    }
+    ,{
+        name: "Roasted Duck Curry",
+        price: "$14.95",
+        description: "Duck meat combined with spicy red curry sauce, bell peppers, tomatoes, pineapples, kaffir lime leaves and fresh basil leaves. ",
+        type: "curries"
+    },{
+        name: "Pad Thai <br> (Thai national noodle dish)",
+        price: "$11.95",
+        description: "Choice of meat Stir-fried with thin rice noodles, egg, bean sprouts, green onions and crushed peanuts in authentic Thai sauce. <br>(We use minced chicken for chicken order) ",
+        type: "noodles"
+    }
+    ,{
+        name: "Drunken Noodles",
+        price: "$11.95",
+        description: "Choice of meat Stir-fried with flat rice noodles, bell peppers, tomatoes, white onions, mushrooms and bamboo shoots with fresh chili garlic and fresh basil leaves.",
+        type: "noodles"
+    }
+    ,{
+        name: "Pad Kua Teaw",
+        price: "$11.95",
+        description: "Choice of meat Stir-fried with thin rice noodles, egg, bean sprouts and green onions with brown sauce.",
+        type: "noodles"
+    },{
+        name: "Pad See Eaw",
+        price: "$11.95",
+        description: "Choice of meat Stir-fried with flat rice noodles, egg, broccoli and black sweet soy sauce.",
+        type: "noodles"
+    }
+    ,{
+        name: "Lad Na ",
+        price: "$11.95",
+        description: "Choice of meat with flat rice noodles and broccoli in a light gravy sauce.	",
+        type: "noodles"
+    },{
+        name: "Pad Woon Sen ",
+        price: "$11.95",
+        description: "Choice of meat Stir-fried with bean thread noodles, mushrooms, egg, bean sprouts, white onions, carrots, celery, napa cabbage and green onions with brown sauce.",
+        type: "noodles"
+    }
+    ,{
+        name: "Pad Kua Teaw",
+        price: "$11.95",
+        description: "Choice of meat Stir-fried with thin rice noodles, egg, bean sprouts and green onions with brown sauce.",
+        type: "noodles"
+    },{
+        name: "Khow Pad <br> (Thai Fried Rice)",
+        price: "$11.95",
+        description: "Choice of meat in fried rice with white onions, tomatoes, egg and green onions with chef’s special sauce topped with cilantro and cucumbers.	",
+        type: "rice"
+    },{
+        name: "Combination Fried Rice ",
+        price: "$15.95",
+        description: "Chicken, Pork, Beef and Shrimp in fried rice with white onions, tomatoes, egg and green onions with chef’s special sauce topped with cilantro and cucumbers.",
+        type: "rice"
+    },{
+        name: "Basil Fried Rice ",
+        price: "$11.95",
+        description: "Choice of meat in fried rice with bell peppers, white onions and basil leaves in a delicious sauce. 	",
+        type: "rice"
+    },{
+        name: "Pineapple Fried Rice ",
+        price: "$12.95",
+        description: "Choice of meat in fried rice with onion, carrot, corn, pea, raisin, pineapple, cashew nut, egg and green onion with chef’s special sauce.",
+        type: "rice"
+    }
+    ,{
+        name: "Thai Ice Tea",
+        price: "$3.95",
+        description: "",
+        type: "drink"
+    },{
+        name: "Thai Coffee(Oling)",
+        price: "$3.95",
+        description: "",
+        type: "drink"
+    },{
+        name: "Hot Tea",
+        price: "$3.50",
+        description: "",
+        type: "drink"
+    }
+    ,{
+        name: "Sweet  Tea / Lemonade",
+        price: "$3.50",
+        description: "",
+        type: "drink"
+    },{
+        name: "Mistic Juice Drink",
+        price: "$3.50",
+        description: "",
+        type: "drink"
+    },{
+        name: "Ice Tea (unsweet)",
+        price: "$3.50",
+        description: "",
+        type: "drink"
+    }
+    ,{
+        name: "Sodas",
+        price: "$1.95",
+        description: "Pepsi, Diet Pepsi, Coke, Diet Coke, Dr.Pepper, Mountain Dew, Sunkist, Ginger Ale, Bottle Water and More Please Ask",
+        type: "drink"
+    },{
+        name: "Import Beer",
+        price: "$4.00",
+        description: "(Chang, Singha, Leo,Heineken, Corona, Asahi)",
+        type: "drink"
+    }
+    ,{
+        name: "Sweet Sticky <br> rice with mango",
+        price: "$7.95",
+        description: "",
+        type: "dessert"
     }
     // Add more menu items as needed
 ];
@@ -198,7 +358,7 @@ function generateMenuItem(menu, index) {
     const itemNumber = index + 1;
     return `
     <div class="item left-aligned-code" data-aos="fade-up">
-        <h5 class="left-aligned-code">${itemNumber}.${menu.name}&nbsp &nbsp &nbsp &nbsp &nbsp${menu.price}</h5>
+        <h5 class="left-aligned-code">${itemNumber}. ${menu.name}&nbsp &nbsp &nbsp &nbsp &nbsp${menu.price}</h5>
         <p>${menu.description}</p>
 
     </div>
@@ -215,6 +375,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const curriesMenuGallery = document.getElementById('curries-item');
     const noodlesMenuGallery = document.getElementById('noodles-item');
     const riceMenuGallery = document.getElementById('rice-item');
+    const dessertMenuGallery = document.getElementById('dessert-item');
+
 
 
     
@@ -236,6 +398,8 @@ document.addEventListener("DOMContentLoaded", function() {
             noodlesMenuGallery.innerHTML += menuHTML;
         }else if (menu.type ==='rice') {
             riceMenuGallery.innerHTML += menuHTML;
+        }else if (menu.type ==='dessert') {
+            dessertMenuGallery.innerHTML += menuHTML;
         }
     });
 });
