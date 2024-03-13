@@ -61,7 +61,7 @@
           <li class="slider-item active" data-hero-slider-item>
 
             <div class="slider-bg overlay">
-              <img src="/assets/img/about1.jpg" width="1880" height="950" alt="" class="img-cover">
+              <img src="https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="1880" height="950" alt="" class="img-cover">
             </div>
             <div class="home__container bd-container ">
                 <div class="home__data">
@@ -105,7 +105,7 @@
           <li class="slider-item" data-hero-slider-item>
 
             <div class="slider-bg overlay">
-              <img src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="1880" height="950" alt="" class="img-cover">
+              <img src="/assets/img/slide.jpeg" width="1880" height="950" alt="" class="img-cover">
             </div>
             <div class="home__container bd-container ">
                 <div class="home__data">
@@ -145,7 +145,7 @@
         </h2>
         <div class="features text-center"  >
             <div class="feature" data-aos="fade-right" data-aos-delay="200" style="--color: #59d8ff;">
-                <a href="">
+                <a href="/Projects.html">
                     <h3 class="feature__title">Drinks</h3>
                     
                     <img class="drinks" src="/assets/img/Thai_Tea.png" alt="">
@@ -154,7 +154,7 @@
             </div>
             
             <div class="feature" data-aos="fade-left" data-aos-delay="200" style="--color: #ffb169;">
-                <a href="">
+                <a href="/Projects.html">
                     <h3 class="feature__title">Entree</h3>
                     
                     <img class="feature__img" src="/assets/img/entree.png" alt="">
@@ -163,7 +163,7 @@
 
             </div>
             <div class="feature" data-aos="fade-up" data-aos-delay="400" style="--color: #15a76a;">
-                <a href="">
+                <a href="/Projects.html">
                     <h3 class="feature__title">Appetizers</h3>
                     
                     <img src="/assets/img/appetizer.png" alt="">
@@ -183,7 +183,7 @@
                     At Thai Papaya Restaurant, we are dedicated to preserving the authenticity of our process and recipes, ensuring that each dish embodies the true flavors and essence of Thailand. Our menu caters to all palates, accommodating varying spice tolerances while maintaining inclusivity for all.
                 
 
-                </p>
+                </p><br><br>
                 <div class="about__hour">
                     <h1>Business  Hours</h1>
                     <p>Monday - Saturday <br> 11:00 a.m - 8:30 p.m</p> <br> <br>
@@ -469,11 +469,16 @@
     </section>
     <!-------------- PROJECTS --------->
     <section id="projects" style="
-    background: url(assets/img/service-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
-    background-attachment: fixed;">
+    background: url(assets/img/service-bg.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Media query for screen width less than 500px */
+    @media screen and (max-width: 500px) {
+      background: url(assets/img/service-bg.png) no-repeat center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+">
         <div class="container">
             <h5 class="section-subheading">
                 SPECIAL DISH
@@ -484,42 +489,42 @@
             <div class="projects">
                 <div class="project" data-aos="fade-down-right" data-aos-delay="300">
                     <div class="project__img">
-                        <img src="assets/img/special1.jpg" alt="">
+                        <img src="assets/img/entree.png" alt="">
                     </div>
                     <div class="project__content">
                         <h3 class="project__category">Entree</h3>
-                        <h3 class="project__title">Elevate your online presence with our expert web development services. From responsive design to robust functionality, we craft tailored solutions to help your business thrive in the digital realm.</h3>
+                        <h3 class="project__title">Pad Thai Noodles</h3>
                         <p class="project__text">
-                            Crafting captivating websites tailored to your unique needs, we blend creativity with technical expertise to deliver immersive digital experiences that drive engagement and growth for your business.
+                            Indulge in the exquisite flavors of Thailand with our signature Pad Thai noodles. Made with stir-fried rice noodles, fresh shrimp, tofu, egg, and a harmonious blend of sweet and tangy tamarind sauce, this dish encapsulates the essence of Thai street food. Topped with crushed peanuts, cilantro, and a squeeze of lime, every bite is a burst of flavor that will transport you to the bustling streets of Bangkok.
                         </p>
                         <a href="" class="btn btn-secondary">View details</a>
                     </div>
                 </div>
                 <div class="project" data-aos="fade-down-left" data-aos-delay="350">
                     <div class="project__img">
-                        <img src="assets/img/special3.png" alt="">
+                        <img src="assets/img/tom_yum.png" alt="">
                     </div>
                     <div class="project__content">
                         <h3 class="project__category">
-                            Chicken Gyoza</h3>
-                        <h3 class="project__title">Deep-fried chicken pot stickers with sweet sauce (6 pcs.)</h3>
+                            Soup</h3>
+                        <h3 class="project__title">Tom Yum Soup</h3>
                         <p class="project__text">
-                            Unlock the full potential of your brand with our dynamic social media marketing strategies. From targeted ad campaigns to engaging content creation, we'll elevate your online presence, foster community engagement, and drive measurable results for your business.
+                            Dive into a bowl of comfort with our aromatic Tom Yum Soup. Infused with lemongrass, kaffir lime leaves, galangal, and chili peppers, this spicy and sour soup is a culinary masterpiece. Whether you're seeking warmth on a chilly day or craving a zesty start to your meal, our Tom Yum Soup delivers a symphony of flavors that awaken the senses. With plump shrimp, mushrooms, and a sprinkle of fresh herbs, it's a taste of Thailand you won't soon forget.
                         </p>
                         <a href="" class="btn btn-secondary">View details</a>
                     </div>
                 </div>
                 <div class="project"data-aos="fade-down-right" data-aos-delay="400">
                     <div class="project__img">
-                        <img src="assets/img/special2.jpg" alt="">
+                        <img src="assets/img/green_curry.png" alt="">
                     </div>
                     <div class="project__content">
-                        <h3 class="project__category">Logo & UI Design</h3>
-                        <h3 class="project__title">Transform your brand identity with our exceptional logo and UI design services. From captivating logos to intuitive user interfaces, we'll craft visually stunning assets that resonate with your audience and elevate your brand's image.
+                        <h3 class="project__category">Curry</h3>
+                        <h3 class="project__title">Green Curry Chicken
                             
                         </h3>
                         <p class="project__text">
-                            Capture the essence of your brand with our expert logo and UI design. Our creative team crafts visually compelling assets that leave a lasting impression, enhancing user experiences and driving engagement across all platforms
+                            Treat your taste buds to the creamy indulgence of our Green Curry Chicken. Slow-simmered with tender chunks of chicken, vibrant Thai eggplant, bamboo shoots, and bell peppers, this curry is a harmonious blend of spice and richness. Infused with fragrant green curry paste, coconut milk, and Thai basil, each spoonful is a journey through the lush jungles of Thailand. Served with steamed jasmine rice, it's a comforting yet adventurous dish that promises to satisfy every craving.
                         </p>
                         <a href="" class="btn btn-secondary">View details</a>
                     </div>
@@ -650,7 +655,7 @@
                             </div>
                             <div class="detail__content">
                                 <h3>Phone</h3>
-                                <p>+12789232</p>
+                                <p>+(757) 788-8345</p>
                             </div>
                         </div>
                         <div class="detail">
@@ -659,16 +664,17 @@
                             </div>
                             <div class="detail__content">
                                 <h3>Email</h3>
-                                <p>Thai Papayadmv@gmail.com</p>
+                                <a target="_blank" href="mailto:thaipapaya@gmail.com">Thaipapaya@gmail.com</a>
                             </div>
                         </div>
                         <div class="detail">
                             <div class="detail__icon">
-                                <i class="fas fa-map-marked-alt"></i>
+                                <i class="footer_icon fas fa-map-marked-alt"></i>
                             </div>
                             <div class="detail__content">
                                 <h3>Address</h3>
-                                <p>123 , Lorem, ipsum dolor.</p>
+                                <a href="https://maps.app.goo.gl/jAR1NmdHQbyv8Sem6">Thai Papaya, 2708 N Armistead Ave, Hampton, VA 23666</a>
+                                <iframe class="footer_map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5107.200124769735!2d-76.38544614044028!3d37.06411330812526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ba839fc12b7b15%3A0xb989a64d62eb178!2sThai%20Papaya!5e0!3m2!1sen!2sus!4v1710336980561!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
@@ -683,10 +689,11 @@
             <div class="footer__content" >
                 <div class="footer__details" data-aos="fade-down-left" data-aos-delay="300">
                     <div class="footer__logo">
-                        <img src="assets/img/logo.png" alt="logo">
+                        <a href="" class="section-heading">Thai Papaya</a>
                     </div>
                     <p class="footer__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, voluptatem?
+                        Get News & Offers <br>
+                        Subscribe to Us
                     </p>
                     <div class="footer__newsletter">
                         <form action="#"
@@ -704,15 +711,13 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">Service</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#team">Team</a></li>
-                        <li><a href="#testimonial">Testimonial</a></li>
+                        <li><a href="#projects">Menu</a></li>
                         <li><a href="#contact">Contact</a></li>
 
 
                     </ul>
                 </div>
-                <div class="footer__menu" data-aos="fade-down-left" data-aos-delay="300">
+                <!-- <div class="footer__menu" data-aos="fade-down-left" data-aos-delay="300">
                     <h3 class="footer__menu-title">Services</h3>
                     <ul class="footer_menu-list">
                         <li><a href="#">Development</a></li>
@@ -725,14 +730,14 @@
 
 
                     </ul>
-                </div>
+                </div> -->
                 <div class="footer__menu" data-aos="fade-down-left" data-aos-delay="300">
                     <h3 class="footer__menu-title">Social</h3>
                     <ul class="footer_menu-list">
                         <li><a href="#">Facebook</a></li>
                         <li><a href="#about">X</a></li>
                         <li><a href="#services">Instagram</a></li>
-                        <li><a href="#projects">Linkedin</a></li>
+                        
                         
 
                     </ul>

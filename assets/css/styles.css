@@ -703,6 +703,15 @@ header .right{
     color: #747474;
     font-size: 0.9rem;
 }
+.detail__content a{
+    color: #747474;
+    transition: 0.5s;
+    
+}
+.detail__content a:hover{
+    color: #f1ab41;
+    
+}
 
 /* FOOTER */
 footer{
@@ -762,6 +771,11 @@ footer{
     margin-top: 3rem;
 
 }
+.footer_map{
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+}
 .footer__bottom-icons{
     display: flex;
     gap: 1rem;
@@ -771,7 +785,7 @@ footer{
 
 }
 .twitter{
-    color:#070707;
+    color:#ffffff;
 }
 .instagram{
     color: #E4405f;
@@ -818,9 +832,7 @@ footer{
     opacity: 1;
     transform: translate3d(0, 0.2em, 0);
   }
-#projects{
-    margin-top: 8rem;
-}
+ 
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
@@ -908,6 +920,10 @@ footer{
     .hero__button{
         flex-direction: column;
     }
+    
+    .footer_icon{
+        width: 40px;
+    }
 
 
     /* ABOUT */
@@ -929,6 +945,9 @@ footer{
 
 
     /* PROJECTS */
+    #projects{
+        background: url(/assets/img/services-bg-mobile.png) no-repeat center center fixed; 
+    }
     .project{
         flex-direction: column !important;
         gap: 2rem;

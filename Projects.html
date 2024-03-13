@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-    <title>Projects ||MindSpark</title>
+    <script defer src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
+
+    <title>Projects||Thai Papaya</title>
 
 </head>
 <body>
@@ -83,12 +85,17 @@
           
     </section> -->
     <!-- MENU  -->
-    <section class="menu" style="
-    background: url(assets/img/service-bg.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
-    background-attachment: fixed;">
+    <section id="menu" style="
+    background: url(assets/img/service-bg.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    /* Media query for screen width less than 500px */
+    @media screen and (max-width: 500px) {
+      background: url(assets/img/service-bg.png) no-repeat center;
+      background-size: cover;
+      background-attachment: fixed;
+    }
+">
         <h5 class="section-subheading text-center">Delicious meals</h5>
         <h2 class="menu section-heading text-center left right">Menu</h2><br>
         
@@ -190,7 +197,7 @@
                             </div>
                             <div class="detail__content">
                                 <h3>Phone</h3>
-                                <p>+12789232</p>
+                                <p>+(757) 788-8345</p>
                             </div>
                         </div>
                         <div class="detail">
@@ -199,16 +206,17 @@
                             </div>
                             <div class="detail__content">
                                 <h3>Email</h3>
-                                <p>MindSparkdmv@gmail.com</p>
+                                <a target="_blank" href="mailto:thaipapaya@gmail.com">Thaipapaya@gmail.com</a>
                             </div>
                         </div>
                         <div class="detail">
                             <div class="detail__icon">
-                                <i class="fas fa-map-marked-alt"></i>
+                                <i class="footer_icon fas fa-map-marked-alt"></i>
                             </div>
                             <div class="detail__content">
                                 <h3>Address</h3>
-                                <p>123 , Lorem, ipsum dolor.</p>
+                                <a href="https://maps.app.goo.gl/jAR1NmdHQbyv8Sem6">Thai Papaya, 2708 N Armistead Ave, Hampton, VA 23666</a>
+                                <iframe class="footer_map"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5107.200124769735!2d-76.38544614044028!3d37.06411330812526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ba839fc12b7b15%3A0xb989a64d62eb178!2sThai%20Papaya!5e0!3m2!1sen!2sus!4v1710336980561!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
@@ -223,10 +231,11 @@
             <div class="footer__content" >
                 <div class="footer__details" data-aos="fade-down-left" data-aos-delay="300">
                     <div class="footer__logo">
-                        <img src="assets/img/logo.png" alt="logo">
+                        <a href="" class="section-heading">Thai Papaya</a>
                     </div>
                     <p class="footer__text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, voluptatem?
+                        Get News & Offers <br>
+                        Subscribe to Us
                     </p>
                     <div class="footer__newsletter">
                         <form action="#"
@@ -244,15 +253,13 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">Service</a></li>
-                        <li><a href="#projects">Projects</a></li>
-                        <li><a href="#team">Team</a></li>
-                        <li><a href="#testimonial">Testimonial</a></li>
+                        <li><a href="#projects">Menu</a></li>
                         <li><a href="#contact">Contact</a></li>
 
 
                     </ul>
                 </div>
-                <div class="footer__menu" data-aos="fade-down-left" data-aos-delay="300">
+                <!-- <div class="footer__menu" data-aos="fade-down-left" data-aos-delay="300">
                     <h3 class="footer__menu-title">Services</h3>
                     <ul class="footer_menu-list">
                         <li><a href="#">Development</a></li>
@@ -265,14 +272,14 @@
 
 
                     </ul>
-                </div>
+                </div> -->
                 <div class="footer__menu" data-aos="fade-down-left" data-aos-delay="300">
                     <h3 class="footer__menu-title">Social</h3>
                     <ul class="footer_menu-list">
                         <li><a href="#">Facebook</a></li>
                         <li><a href="#about">X</a></li>
                         <li><a href="#services">Instagram</a></li>
-                        <li><a href="#projects">Linkedin</a></li>
+                        
                         
 
                     </ul>
