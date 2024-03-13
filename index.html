@@ -54,14 +54,14 @@
         </div>
     </header>
     <!-------------- HERO------- -->
-    <section class="hero text-center flex-row" aria-label="home" id="home">
+    <section class="hero text-center flex-row" aria-label="home" id="hero">
 
         <ul class="hero-slider" data-hero-slider>
 
           <li class="slider-item active" data-hero-slider-item>
 
             <div class="slider-bg overlay">
-              <img src="https://images.unsplash.com/photo-1587574293340-e0011c4e8ecf?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="1880" height="950" alt="" class="img-cover">
+              <img src="/assets/img/slide.jpeg" width="1880" height="950" alt="" class="img-cover">
             </div>
             <div class="home__container bd-container ">
                 <div class="home__data">
@@ -105,7 +105,7 @@
           <li class="slider-item" data-hero-slider-item>
 
             <div class="slider-bg overlay">
-              <img src="/assets/img/slide.jpeg" width="1880" height="950" alt="" class="img-cover">
+              <img src="/assets/img/slide3.jpg" width="1880" height="950" alt="" class="img-cover">
             </div>
             <div class="home__container bd-container ">
                 <div class="home__data">
@@ -145,7 +145,7 @@
         </h2>
         <div class="features text-center"  >
             <div class="feature" data-aos="fade-right" data-aos-delay="200" style="--color: #59d8ff;">
-                <a href="/Projects.html">
+                <a onclick="redirectToDrink()">
                     <h3 class="feature__title">Drinks</h3>
                     
                     <img class="drinks" src="/assets/img/Thai_Tea.png" alt="">
@@ -154,7 +154,7 @@
             </div>
             
             <div class="feature" data-aos="fade-left" data-aos-delay="200" style="--color: #ffb169;">
-                <a href="/Projects.html">
+                <a onclick="redirectToEntree()">
                     <h3 class="feature__title">Entree</h3>
                     
                     <img class="feature__img" src="/assets/img/entree.png" alt="">
@@ -163,7 +163,7 @@
 
             </div>
             <div class="feature" data-aos="fade-up" data-aos-delay="400" style="--color: #15a76a;">
-                <a href="/Projects.html">
+                <a onclick="redirectToAppetizer()">
                     <h3 class="feature__title">Appetizers</h3>
                     
                     <img src="/assets/img/appetizer.png" alt="">
@@ -711,7 +711,7 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#services">Service</a></li>
-                        <li><a href="#projects">Menu</a></li>
+                        <li><a href="/Projects.html">Menu</a></li>
                         <li><a href="#contact">Contact</a></li>
 
 

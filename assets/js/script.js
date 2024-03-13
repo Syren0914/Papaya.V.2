@@ -126,24 +126,23 @@ window.addEventListener("load", autoSlide);
 
 
 // Redirect
-function redirectToMenu(){
-  window.location.href = 'menu.html#noodle';
+
+function redirectToDrink(){
+  window.location.href = 'Projects.html#drink-item';
 }
-function redirectToMenu1(){
-  window.location.href = 'menu.html#entree';
+function redirectToEntree(){
+  window.location.href = 'Projects.html#entree-item';
 }
-function redirectToMenu2(){
-  window.location.href = 'menu.html#drinks';
-}
-function redirectToContact(){
-  window.location.href = 'index.html#reservation';
-}
-function redirectToEvents(){
-  window.location.href = 'index.html#events';
+function redirectToAppetizer(){
+  window.location.href = 'Projects.html#appetizer-item';
 }
 function redirectToAbout(){
   window.location.href = 'index.html#about';
 }
+function redirectToServices(){
+  window.location.href = 'index.html#services';
+}
+
 
 
 
