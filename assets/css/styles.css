@@ -906,49 +906,7 @@ footer{
 
 
     /* HERO */
-    #hero {
-        flex-direction: column;
-        justify-content: center;
-        background: url(/assets/img/Background_mobile.png);
-        background-repeat: no-repeat;
-        background-position: top;
-        background-size: 100% 100%;
-        
-
-    }
-    .hero__content{
-        width: 100%;
-        text-align: center;
-    }
-    .hero__content h1{
-        font-size: 2.0rem;
-
-    }
-    .hero__content h1 span{
-        font-size: 2.5rem;
-    }
-    .hero__content .btn{
-        margin: 0 auto;
-
-    }
-    .hero__img{
-        width: 100%;
-    }
-    .home__subtitle{
-        font-size: 20px;
-
-    }
-    .home__container{
-        margin-top: 10rem;
-        
-    }
-    .hero__button{
-        flex-direction: column;
-    }
     
-    .footer_icon{
-        width: 40px;
-    }
 
 
     /* ABOUT */
