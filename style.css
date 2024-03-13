@@ -486,6 +486,7 @@
       text-shadow: 4px 4px #000000;
       font-size: 2rem;
     }
+    
     @media (max-width: 450px){
       .grid{
         display: flex;
