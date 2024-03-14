@@ -795,6 +795,11 @@ footer{
     margin-top: 3rem;
 
 }
+.textarea{
+    /* text-decoration: none; */
+    color: #747474;
+}
+
 .footer_map{
     margin-top: 10px;
     width: 100%; 
@@ -906,7 +911,12 @@ footer{
 
 
     /* HERO */
-    
+    .home__data{
+        margin-top: 14rem;
+    }
+    .hero__button{
+        flex-direction: column;
+    }
 
 
     /* ABOUT */
@@ -973,7 +983,7 @@ footer{
     .contact__form, .contact__details{
         width: 100%;
     }
-
+    
 
     /* FOOTER */
     .footer__content{
@@ -983,6 +993,9 @@ footer{
         flex-direction: column;
         text-align: center;
 
+    }
+    .footer_icon{
+        width: 40px;
     }
 
 
