@@ -232,8 +232,8 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background-color: var(--gold-crayola);
-      z-index: 10;
+      background-color: white;
+      z-index: 1000;
       display: grid;
       place-content: center;
       justify-items: center;
@@ -268,7 +268,8 @@
       background-image: var(--loading-text-gradient);
       background-size: 500%;
       font-size: calc(2rem + 3vw);
-      font-weight: var(--weight-bold);
+      font-weight: 500;
+      font-family: 'Courier New', Courier, monospace;
       line-height: 1em;
       text-transform: uppercase;
       letter-spacing: 16px;
