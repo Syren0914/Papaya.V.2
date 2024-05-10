@@ -343,7 +343,7 @@ const menus = [
     }
     ,{
         name: "Sweet Sticky <br> rice with mango",
-        price: "$3.95",
+        price: "$7.95",
         description: "",
         type: "dessert"
     }
