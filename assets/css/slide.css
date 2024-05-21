@@ -364,6 +364,8 @@
     
     .home__data{
       transform: translate(0%, -60%);
+      margin-top: 20rem;
+
       
     }
     .home__data h1{
